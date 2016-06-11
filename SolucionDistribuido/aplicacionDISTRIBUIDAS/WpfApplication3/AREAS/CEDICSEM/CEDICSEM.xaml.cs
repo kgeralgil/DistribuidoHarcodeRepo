@@ -21,9 +21,6 @@ using WpfApplication3.AREAS.CLASES_Y_UTILIDADES;
 
 namespace WpfApplication3.AREAS.CEDICSEM
 {
-    /// <summary>
-    /// Interaction logic for PROVIDA_CAMPANAS.xaml
-    /// </summary>
     public partial class CEDICSEM : UserControl
     {
         
@@ -79,8 +76,32 @@ namespace WpfApplication3.AREAS.CEDICSEM
                 StreamReader reader2 = new StreamReader(res2.GetResponseStream());
                 string clienteJson3 = reader2.ReadToEnd();
                 JavaScriptSerializer js3 = new JavaScriptSerializer();
+               /*Actualiza la lista de bitacora de llamadas*/
                 List<Bitacoras> clienteObtenido = js3.Deserialize<List<Bitacoras>>(clienteJson3);
+                /*WCF:  Actualiza datos del cliente*/
+
+                ClienteWS.ServiceClienteClient proxy = new ClienteWS.ServiceClienteClient();
+                ClienteWS.Cliente_SQL clienteCreado = proxy.obtenerCliente(TxtDocumento.Text);
+
                 grdhistorias.ItemsSource = clienteObtenido;
+                TxtCelular.Text = clienteCreado.CELULAR;
+                TxtTelefono1.Text = clienteCreado.TELEFONO1;
+                TxtTelefono2.Text = clienteCreado.TELEFONO2;
+                txtEmpresa.Text = clienteCreado.EMPRESA;
+                txtVigencia.Text = clienteCreado.INICIOVIGENCIA;
+                txtmotivo.Text = clienteCreado.MOTIVO;
+                txtNombre.Text = clienteCreado.TITULAR;
+                txtNombreAsesor.Text = clienteCreado.NOMBREASESOR;
+                txtNCuota.Text = clienteCreado.NROCUOTA;
+                txtNcontrato.Text = clienteCreado.CONTRATO;
+                TxtDocumento.Text = clienteCreado.NRODOCUMENTOIDENTIDAD;
+                TxtEmail.Text = clienteCreado.EMAIL;
+                txtFpago.Text = clienteCreado.FORMADEPAGO;
+                txtCodigoAsesor.Text = clienteCreado.CODIGOASESOR;
+                txtSecuencia.Text= clienteCreado.SECUENCIACONTRATO;
+                txtAporte.Text= clienteCreado.APORTE;
+                txtAsignadoA.Text= clienteCreado.APORTESINIGV;
+                
             }
             catch (WebException ex)
             {
@@ -113,9 +134,6 @@ namespace WpfApplication3.AREAS.CEDICSEM
             
         }
 
-
-
-        
         private void btnGuardar_Click(object sender, System.Windows.RoutedEventArgs e)
         {
 
@@ -135,8 +153,5 @@ namespace WpfApplication3.AREAS.CEDICSEM
         }
 
     }
-
-
-
 }
 

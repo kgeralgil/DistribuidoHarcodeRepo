@@ -8,10 +8,6 @@ namespace WpfApplication3
 	/// </summary>
 	public interface InterfazGUI : IView,IMin
 	{
-		/// <summary>
-		/// Gets or sets the model.
-		/// </summary>
-		/// <value>The model.</value>
 		interfaceModeloPresentacionGUI Model { get; set; }
 	}
 }

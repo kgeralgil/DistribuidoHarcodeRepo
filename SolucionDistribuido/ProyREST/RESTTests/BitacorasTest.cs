@@ -18,9 +18,7 @@ namespace RESTTests
 
         [TestMethod]
         public void InsertarBitacoraOk()
-        {
-            
-           
+        {           
               //pRUEBA DE CREACION DE CLIENTE via HTTP POST   
             string postData = "{\"DNI\":\"11112222\",\"Destino\":\"12443\",\"FechaInicioCall\":\"121\",\"FechaTerminoCall\":\"xxxxxx\",\"DuracionCall\":\"xxxxxx\",\"Agente\":\"xxxxxx\",\"TipoInteraccion\":\"xxxxxx\",\"NombreCamp\":\"xxxxxx\",\"Accion\":\"xxxxxx\",\"FechaAccion\":\"xxxxxx\",\"Origen\":\"xxxxxx\",\"Observaciones\":\"xxxxxx\",\"Motivo\":\"xxxxxx\",\"Efectividad\":\"xxxxxx\",\"ID\":\"xxxxxx\"}"; //JSON
 
@@ -47,7 +45,7 @@ namespace RESTTests
         }
 
         [TestMethod]
-        public void InsertarBitacoraKO()
+        public void InsertarBitacoraErrorDni()
         { 
             try
             {
@@ -131,9 +129,6 @@ namespace RESTTests
             }
         }
         
-
-
-
 
     }
 }

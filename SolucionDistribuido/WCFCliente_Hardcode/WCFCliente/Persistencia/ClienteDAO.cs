@@ -36,6 +36,7 @@ namespace WCFCliente.Persistencia
                                 TITULAR = (string)resultado["CEDICSEM_C_txtNombre"],
                                 TELEFONO1 = (string)resultado["CEDICSEM_C_TxtTelefono1"],
                                 TELEFONO2 = (string)resultado["CEDICSEM_C_TxtTelefono2"],
+<<<<<<< HEAD
                                 INICIOVIGENCIA = (string)resultado["CEDICSEM_C_txtVigencia"],
 
 
@@ -52,6 +53,8 @@ namespace WCFCliente.Persistencia
                                 CARGOACUENTA = (string)resultado["CEDICSEM_C_txtcargo"],
                                 NOMBREASESOR = (string)resultado["CEDICSEM_C_txtNombreAsesor"],
                                 
+=======
+>>>>>>> origin/master
                                 CELULAR = (string)resultado["CEDICSEM_C_TxtCelular"],
                                 NRODOCUMENTOIDENTIDAD = (string)resultado["CEDICSEM_C_TxtDocumento"],
                                 CONTRATO = (string)resultado["CEDICSEM_C_txtNcontrato"],
@@ -63,6 +66,10 @@ namespace WCFCliente.Persistencia
                                 CODIGOASESOR = (string)resultado["CEDICSEM_C_txtCodigoAsesor"],
                                 TIENEPREEXISTENCIAS = (string)resultado["CEDICSEM_C_txtPreexistencias"],
                                 NRORENOVACION = (string)resultado["CEDICSEM_C_txtRenovacion"],
+                                FORMADEPAGO = (string)resultado["CEDICSEM_C_txtFormaPago"],
+                                INICIOVIGENCIA = (string)resultado["CEDICSEM_C_txtInicioVigencia"],
+                                MOTIVO = (string)resultado["CEDICSEM_C_txtMotivo"],
+                                NOMBREASESOR = (string)resultado["CEDICSEM_C_txtNombreAsesor"]
                             };
                         }
                     }
@@ -117,9 +124,6 @@ namespace WCFCliente.Persistencia
             }
             catch (Exception error)
             {
-
-                // Extract some information from this exception, and then 
-                // throw it to the parent method.
                 if (error.Source != null)
                     Console.WriteLine("IOException source: {0}", error.Source);
                 return clienteInsertar;

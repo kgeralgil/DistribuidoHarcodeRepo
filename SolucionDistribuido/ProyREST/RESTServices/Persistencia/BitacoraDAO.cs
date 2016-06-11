@@ -44,17 +44,11 @@ namespace RESTServices.Persistencia
             }
             catch (Exception error)
             {
-
-                // Extract some information from this exception, and then 
-                // throw it to the parent method.
                 if (error.Source != null)
                     Console.WriteLine("IOException source: {0}", error.Source);
                 return proveedorErroneo;
                 throw;
-
-            }
-            
-            
+            }            
         }
 
 
