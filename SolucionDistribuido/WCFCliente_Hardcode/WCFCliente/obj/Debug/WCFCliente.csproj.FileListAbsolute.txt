@@ -1,0 +1,6 @@
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\bin\WCFCliente.dll.config
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\bin\WCFCliente.dll
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\bin\WCFCliente.pdb
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\obj\Debug\WCFCliente.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\obj\Debug\WCFCliente.dll
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\WCFCliente_Hardcode\WCFCliente\obj\Debug\WCFCliente.pdb

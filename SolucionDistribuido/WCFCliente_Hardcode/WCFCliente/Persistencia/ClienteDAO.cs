@@ -36,7 +36,22 @@ namespace WCFCliente.Persistencia
                                 TITULAR = (string)resultado["CEDICSEM_C_txtNombre"],
                                 TELEFONO1 = (string)resultado["CEDICSEM_C_TxtTelefono1"],
                                 TELEFONO2 = (string)resultado["CEDICSEM_C_TxtTelefono2"],
+                                INICIOVIGENCIA = (string)resultado["CEDICSEM_C_txtVigencia"],
 
+
+                                SECUENCIACONTRATO = "10",
+                                ESTADOCUOTA = (string)resultado["CEDICSEM_C_txtEstadoCuota"],
+                                //ULTIMAMODIFICACIONSECUENCIA = (string)resultado["CEDICSEM_C_txtVigencia"],
+                                CATEGORIA = (string)resultado["CEDICSEM_C_txtCategorizacion"],
+                                ASIGNADOA = (string)resultado["CEDICSEM_C_txtAsignado"],
+                                NROCUOTA = (string)resultado["CEDICSEM_C_txtNCuota"],
+                                BANCO = (string)resultado["CEDICSEM_C_txtBanco"],
+                                MONTO = (string)resultado["CEDICSEM_C_txtAporte"],
+                                FORMADEPAGO = "PERSONAL",
+                                TIPODESCUENTO = (string)resultado["CEDICSEM_C_txtdescuento"],
+                                CARGOACUENTA = (string)resultado["CEDICSEM_C_txtcargo"],
+                                NOMBREASESOR = (string)resultado["CEDICSEM_C_txtNombreAsesor"],
+                                
                                 CELULAR = (string)resultado["CEDICSEM_C_TxtCelular"],
                                 NRODOCUMENTOIDENTIDAD = (string)resultado["CEDICSEM_C_TxtDocumento"],
                                 CONTRATO = (string)resultado["CEDICSEM_C_txtNcontrato"],

@@ -8,6 +8,7 @@ namespace WCFCliente.Dominio
     //CLASE CREADA POR KAREN GIL
     public class Cliente_SQL
     {
+        public string MONTO { get; set; }
         public string ANIOMES { get; set; }
         public string CONTRATO { get; set; }
         public string SECUENCIACONTRATO { get; set; }
