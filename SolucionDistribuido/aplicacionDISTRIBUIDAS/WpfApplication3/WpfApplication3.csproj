@@ -114,6 +114,7 @@
       <DependentUpon>VerContrato.xaml</DependentUpon>
     </Compile>
     <Compile Include="AREAS\CLASES_Y_UTILIDADES\Bitacoras.cs" />
+    <Compile Include="AREAS\CLASES_Y_UTILIDADES\Cliente.cs" />
     <Compile Include="ClaseModeloPresentacionGUI.cs" />
     <Compile Include="GUIusuario.xaml.cs">
       <DependentUpon>GUIusuario.xaml</DependentUpon>
@@ -125,7 +126,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
+    <Compile Include="Service References\ClienteWS\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -182,17 +183,17 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <None Include="Service References\ServiceReference1\ServiceCliente.wsdl" />
-    <None Include="Service References\ServiceReference1\ServiceCliente.xsd">
+    <None Include="Service References\ClienteWS\ServiceCliente.wsdl" />
+    <None Include="Service References\ClienteWS\ServiceCliente.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\ServiceCliente1.xsd">
+    <None Include="Service References\ClienteWS\ServiceCliente1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\ServiceCliente2.xsd">
+    <None Include="Service References\ClienteWS\ServiceCliente2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\WpfApplication3.ServiceReference1.Cliente_SQL.datasource">
+    <None Include="Service References\ClienteWS\WpfApplication3.ClienteWS.Cliente_SQL.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>
@@ -242,19 +243,19 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\ClienteWS\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReference1\ServiceCliente.disco" />
+    <None Include="Service References\ClienteWS\ServiceCliente.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ClienteWS\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ClienteWS\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
+    <None Include="Service References\ClienteWS\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

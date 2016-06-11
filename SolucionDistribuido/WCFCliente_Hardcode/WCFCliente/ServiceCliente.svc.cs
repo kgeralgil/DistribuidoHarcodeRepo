@@ -14,17 +14,15 @@ namespace WCFCliente
     {
         private ClienteDAO clienteDAO = new ClienteDAO();
       
-        public Dominio.Cliente_SQL obtenerCliente(string dni)
+        public Cliente_SQL obtenerCliente(string dni)
         {
             return clienteDAO.obtenerCliente(dni);
         }
 
-
-        public Dominio.Cliente_SQL insertarCliente(Dominio.Cliente_SQL clienteInsertar)
+        public Cliente_SQL insertarCliente(Cliente_SQL clienteInsertar)
         {
             return clienteDAO.Crear(clienteInsertar);
         }
 
-        
     }
 }

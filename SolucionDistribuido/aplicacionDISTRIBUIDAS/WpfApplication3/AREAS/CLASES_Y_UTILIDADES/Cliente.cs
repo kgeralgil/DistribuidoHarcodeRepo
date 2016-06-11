@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Runtime.Serialization;
 
-namespace WCFCliente.Dominio
+namespace WpfApplication3.AREAS.CLASES_Y_UTILIDADES
 {
-    //CLASE CREADA POR KAREN GIL
-    public class Cliente_SQL
+    // KAREN GIL
+    [DataContract]
+    class Cliente
     {
         [DataMember]
         public string ANIOMES { get; set; }
