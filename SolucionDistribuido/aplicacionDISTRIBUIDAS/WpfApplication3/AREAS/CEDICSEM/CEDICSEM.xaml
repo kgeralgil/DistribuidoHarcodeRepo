@@ -22,7 +22,7 @@
     <Grid Background="White">
         <Canvas Opacity="0.7" Name="ContenidoPagina" Margin="0,-15,0,15" Background="LightSeaGreen"  >
             <Canvas Name="RegionEstadisticasYEncabezado" Height="51" Width="924" Canvas.Left="64" Canvas.Top="-1" Visibility="Hidden">
-
+        
                 <TextBlock x:Name="lestadisticas" FontWeight="Bold" FontSize="18" Canvas.Left="320" ><Run Language="es-cl" Text="INFORMACION ADICIONAL" FontStyle="Italic" FontSize="16"/></TextBlock>
                 <Label  Height="auto" Width="auto"  HorizontalContentAlignment="Right" x:Name="latendidosAgente" BorderBrush="#FF6808" BorderThickness="1"   FontWeight="Bold" FontStyle="Italic" Canvas.Left="644" Canvas.Top="30"  />
                 <Label  Height="auto" Width="auto"   HorizontalContentAlignment="Right" x:Name="ltotales" BorderBrush="#FF6808" BorderThickness="1"   FontWeight="Bold" FontStyle="Italic" Canvas.Left="454" Canvas.Top="30"    />
@@ -31,9 +31,9 @@
             </Canvas>
             <!--DATOS DEMOGRAFICOS-->
             <Canvas Name="RegionDatosDemograficos" Height="366" Width="1001" Canvas.Top="40" Canvas.Left="1"  >
-                <Button Canvas.Left="463" x:Name="btnVerCliente" TabIndex="12" Width="128" Height="42" Canvas.Top="-23" Click="btnVerCliente_Click" >
+                <Button Canvas.Left="480" x:Name="btnVerCliente" TabIndex="12" Width="128" Height="42" Canvas.Top="-20" Click="btnVerCliente_Click" >
                     <DockPanel>
-                        <TextBlock TextWrapping="Wrap">VER Cliente</TextBlock>
+                        <TextBlock TextWrapping="Wrap">Ver Cliente</TextBlock>
                     </DockPanel>
                 </Button>
                 <TextBlock x:Name="lDemograficos" Text="Datos Del Cliente"  FontWeight="Bold" FontSize="18" Canvas.Top="2" Canvas.Left="5" Foreground="#FF280436"/>
