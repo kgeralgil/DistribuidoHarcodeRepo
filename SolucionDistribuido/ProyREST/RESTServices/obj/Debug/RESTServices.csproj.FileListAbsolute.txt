@@ -1,0 +1,6 @@
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\bin\RESTServices.dll.config
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\bin\RESTServices.dll
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\bin\RESTServices.pdb
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\obj\Debug\RESTServices.dll
+C:\Users\Walter\Documents\GitHub\DistribuidoHarcodeRepo\SolucionDistribuido\ProyREST\RESTServices\obj\Debug\RESTServices.pdb

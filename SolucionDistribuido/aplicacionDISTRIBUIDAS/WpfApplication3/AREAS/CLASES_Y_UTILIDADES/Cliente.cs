@@ -11,6 +11,10 @@ namespace WpfApplication3.AREAS.CLASES_Y_UTILIDADES
     class Cliente
     {
         [DataMember]
+        public string MONTO { get; set; }
+
+        [DataMember]
+
         public string ANIOMES { get; set; }
         [DataMember]
         public string CONTRATO { get; set; }

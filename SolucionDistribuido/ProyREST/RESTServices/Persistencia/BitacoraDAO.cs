@@ -76,8 +76,8 @@ namespace RESTServices.Persistencia
                             {
                                 DNI = (string)resultado["CEDICSEM_C_TxtDocumento"],
                                 FechaInicioCall = (string)resultado["FECHA"],
-                                FechaTerminoCall = (string)resultado["HORA"],
-                                Agente = (string)resultado["AGENTE"],
+                                FechaTerminoCall = resultado["HORA"].ToString(),
+                                Agente = resultado["AGENTE"].ToString(),
                                 Accion = (string)resultado["Combos"],
                                 Observaciones = (string)resultado["Observaciones"]
                             };

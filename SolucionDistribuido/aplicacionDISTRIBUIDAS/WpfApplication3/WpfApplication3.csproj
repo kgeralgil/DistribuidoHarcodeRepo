@@ -115,6 +115,9 @@
     </Compile>
     <Compile Include="AREAS\CLASES_Y_UTILIDADES\Bitacoras.cs" />
     <Compile Include="AREAS\CLASES_Y_UTILIDADES\Cliente.cs" />
+    <Compile Include="AREAS\CLASES_Y_UTILIDADES\Clientes.cs" />
+    <Compile Include="AREAS\CLASES_Y_UTILIDADES\SqlHelper.cs" />
+    <Compile Include="AREAS\CLASES_Y_UTILIDADES\SqlHelper_2.cs" />
     <Compile Include="ClaseModeloPresentacionGUI.cs" />
     <Compile Include="GUIusuario.xaml.cs">
       <DependentUpon>GUIusuario.xaml</DependentUpon>
