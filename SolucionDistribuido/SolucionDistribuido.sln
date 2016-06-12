@@ -11,9 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTTests", "ProyREST\RESTT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication3", "aplicacionDISTRIBUIDAS\WpfApplication3\WpfApplication3.csproj", "{6B14BBEF-50C0-4B00-B9F5-B95058DD294B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTqueueTest", "MensajeriaSol\RESTqueueTest\RESTqueueTest.csproj", "{8C7E6712-ADF4-4647-B6BA-F25AEA64A694}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFQueueCliente", "MensajeriaSol\WCFQueueCliente\WCFQueueCliente.csproj", "{9EB63B86-3423-4DFC-A891-00C84C5D4F2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFQueueCliente", "WCFQueueCliente\WCFQueueCliente.csproj", "{9EB63B86-3423-4DFC-A891-00C84C5D4F2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{6B14BBEF-50C0-4B00-B9F5-B95058DD294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B14BBEF-50C0-4B00-B9F5-B95058DD294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B14BBEF-50C0-4B00-B9F5-B95058DD294B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C7E6712-ADF4-4647-B6BA-F25AEA64A694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C7E6712-ADF4-4647-B6BA-F25AEA64A694}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C7E6712-ADF4-4647-B6BA-F25AEA64A694}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C7E6712-ADF4-4647-B6BA-F25AEA64A694}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9EB63B86-3423-4DFC-A891-00C84C5D4F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9EB63B86-3423-4DFC-A891-00C84C5D4F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EB63B86-3423-4DFC-A891-00C84C5D4F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
