@@ -39,9 +39,6 @@ namespace WpfApplication3.AREAS.CEDICSEM
             
         }
 
-
-
-
         private void IconButtonContractuales_Click(object sender, RoutedEventArgs e)
         {
 
