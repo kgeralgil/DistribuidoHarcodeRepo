@@ -40,9 +40,6 @@ namespace WpfApplication3.AREAS.CEDICSEM
             
         }
 
-
-
-
         private void IconButtonContractuales_Click(object sender, RoutedEventArgs e)
         {
             string variablebusqueda = string.Empty;
@@ -88,7 +85,7 @@ namespace WpfApplication3.AREAS.CEDICSEM
                /*Actualiza la lista de bitacora de llamadas*/
                 List<Bitacoras> clienteObtenido = js3.Deserialize<List<Bitacoras>>(clienteJson3);
                 /*WCF:  Actualiza datos del cliente*/
-
+            
                 ClienteWS.ServiceClienteClient proxy = new ClienteWS.ServiceClienteClient();
                 ClienteWS.Cliente_SQL clienteCreado = proxy.obtenerCliente(TxtDocumento.Text);
 

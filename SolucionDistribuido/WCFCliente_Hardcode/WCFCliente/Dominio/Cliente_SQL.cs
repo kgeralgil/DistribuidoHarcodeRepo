@@ -9,7 +9,6 @@ namespace WCFCliente.Dominio
     //CLASE CREADA POR KAREN GIL
     public class Cliente_SQL
     {
-
         public string MONTO { get; set; }
 
         [DataMember]
